@@ -57,15 +57,6 @@ function getAirtameManagerJsonObject(filename, callback) {
 }
 
 function updateAirtameManagerJsonObject(originalJson, networkObject, encryptedPassword) {
-    /* "networks": [
-     {
-     "network": "AirPort TC GSR",
-     "freq": "2437",
-     "password": "dbfd52a7d5fd02543d3826735ff5572db37807ee4847ac89f03256347ebaeaa0",
-     "priority": 1
-     }
-     ],
-     */
     originalJson.networks=[ {
         network: networkObject.network,
         freq: networkObject.frequency,
