@@ -23,6 +23,7 @@
     "url": "https://github.com/jmarti-theinit/airtame-usb-setup/issues"
   },
   "dependencies": {
-    "scp2": "^0.2.1"
+    "scp2": "^0.2.1",
+    "wireless": "^0.3.2"
   }
 }
